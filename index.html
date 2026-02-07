@@ -61,20 +61,20 @@
   <script src="https://www.youtube.com/iframe_api"></script>
   <script>
     let player;
-     const startTime = 227;
-    const endTime = 261;
+     const startTime = 0;
+    const endTime = 9999;
     window.onYouTubeIframeAPIReady = function() {
       player = new YT.Player('player', {
         height: '0',
         width: '0',
-        videoId: 'pxis4fQVV-4',
+        videoId: '5UihqGaL5nM',
         playerVars: {
           autoplay: 0,
           start: startTime,
           end: endTime,
           controls: 0,
           loop: 1,
-          playlist: 'pxis4fQVV-4'
+          playlist: '5UihqGaL5nM'
         },
         events: {
           onReady: () => {
